@@ -283,18 +283,45 @@ table.customTable {
     border-width: 2px;
     border-color: #009BFF;
     color: #000000;
-  }
+}
   
   table.customTable td, table.customTable th {
     border-width: 2px;
     border-color: #009BFF;
     border-style: solid;
-    padding: 20px;
-
+    padding: 25px;
   }
   
   table.customTable thead {
-      background-color: #0C9FFF;
-      border-radius: 20px;
+    background-color: #0C9FFF;
   }
   
+  .detalhes{
+    background-color: #ffffff;
+    margin: 100px auto;
+    width: 100%;
+    max-width: 90%;
+    border-radius: 20px;
+    padding: 20px;
+    font-size: 2.5rem;
+  }
+
+  .detalhes b{
+    font-size: 1.7rem;
+    font-weight: bold;
+  }
+
+  .detalhes p{
+    font-size: 1.5rem;
+    font-weight: lighter;
+  }
+
+  article{
+    background-color: #ffffff;
+    margin: 100px auto;
+    width: 100%;
+    max-width: 90%;
+    border-radius: 20px;
+    padding: 20px;
+    font-size: 2.5rem;
+  }

@@ -270,3 +270,31 @@ a{
 .footer a{
     font-size: 1.5rem;
 }
+
+
+table.customTable {
+    margin: 100px auto;
+    width: 100%;
+    max-width: 90%;
+    height: auto;
+    max-height: 90%;
+    background-color: #FFFFFF;
+    border-collapse: collapse;
+    border-width: 2px;
+    border-color: #009BFF;
+    color: #000000;
+  }
+  
+  table.customTable td, table.customTable th {
+    border-width: 2px;
+    border-color: #009BFF;
+    border-style: solid;
+    padding: 20px;
+
+  }
+  
+  table.customTable thead {
+      background-color: #0C9FFF;
+      border-radius: 20px;
+  }
+  

@@ -1,43 +1,59 @@
-<!DOCTYPE html>>
+<!DOCTYPE html>
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="../../main.css">
-    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="/src/styles/styles.css">
     <title>Nossos Cursos</title>
 </head>
 <body>
-    <img src="../../assets/puff2.jfif">
-    <table border="1">
-        <tr>
+    <header id="header">
+        <div class="logo">
+           <a href="/src/pages/index.html"><img id="header-img" src="/src/assets/índice.png" alt="" width="70px" height="70px"></a>
+           <p>Sra. Puff</p>
+        </div>
+        <nav id="nav-bar">
+           <ul>
+               <li><a href="#sobre" class="nav-link">Sobre</a></li>
+               <li><a href="#cursos" class="nav-link">Cursos</a></li>
+               <li><a href="#disciplina" class="nav-link">Disciplina</a></li>
+               <li><a href="#noticias" class="nav-link">noticias</a></li>
+            </ul>
+        </nav>
+    </header>
+       
+    <table class="customTable">
+        <thead>
+          <tr>
             <td><b>Curso</b></td>
-            <td><b>Duração</b></td>
-            <td><b>Preço</b></td>
-         </tr>
-        <tr>
-            <td>Habilitação de Barcos motorizados</td>
-            <td>Duração de 6 Meses</td>
+            <td><b>Duracao</b></td>
+            <td><b>Preco</b></td>
+          </tr>
+        </thead>
+       
+        <tbody>
+          <tr>
+            <td>Habilitacao de Barcos motorizados</td>
+            <td>Duracao de 6 Meses</td>
             <td>2000 Moeda-esponja Mensais</td>
-        </tr>
-        <tr>
+          </tr>
+          <tr>
             <td>Drift em Corais</td>
-            <td>Duração de 1 ano</td>
+            <td>Duracao de 1 ano</td>
             <td>3500 Moeda-esponja Mensais</td>
-         </tr>
-         <br>
-         <tr>
+          </tr>
+          <tr>
             <td>Boas Praticas em auto-mar</td>
             <td>2 meses</td>
             <td>1200 moeda-esponja Mensais</td>
-         </tr>
-         <tr>
+          </tr>
+          <tr>
             <td><i>Novo!</i> Corrida de Caramujo </td>  <!-- Deixa o Novo em Amarelo, acho que ficaria binito--> 
-            <td>Duração de 4 meses</td> 
+            <td>Duracao de 4 meses</td> 
             <td>8000 moeda-esponja Mensais</td>
-         </tr>
-    </table><br/>
-    <a href="../vagas/index.html">Voltar</a><br>
-    <a href='../conteudo_curso/index.html'>Proxima Página</a>
+          </tr>
+        </tbody>
+      </table>
 
-    
+
 </body>
 </html>

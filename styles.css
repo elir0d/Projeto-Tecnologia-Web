@@ -120,7 +120,6 @@ a{
 
     margin: 0 auto;
 
-    background-color: var(--green);
     color: #ffffff;
 }
 
@@ -181,6 +180,13 @@ a{
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
+}
+
+.animacao img{
+    max-width: auto;
+    width: 300px;
+    height: 300px;
+    max-height: auto;
 }
 
 .cursos{
@@ -265,11 +271,14 @@ a{
     background: #ffffff;
     text-align: center;
     font-size: 1.5rem;
+    box-shadow: 0px 0px 6px rgba(50, 50, 50, 0.77);
+
 
 }
 
 .footer a{
     font-size: 1.5rem;
+    
 }
 
 
@@ -296,28 +305,48 @@ table.customTable {
   table.customTable thead {
     background-color: #0C9FFF;
   }
-  
-  .detalhes{
-    background-color: #ffffff;
-    margin: 100px auto;
+ 
+  /*  */
+
+.detalhes{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
     width: 100%;
-    max-width: 90%;
-    border-radius: 20px;
-    padding: 20px;
-    font-size: 2.5rem;
-  }
+    min-height: 100vh;
+    max-height: auto;
 
-  .detalhes b{
-    font-size: 1.7rem;
-    font-weight: bold;
-  }
+    margin: 0 auto;
+    background: #ffffff;
+}
 
-  .detalhes p{
+.detalhes img{
+    margin: 10% auto;
+    height: 600px;
+    width: 100%;
+}
+
+.boas-praticas h1{
+    font-size: 3rem;
+}
+
+.boas-praticas b{
+    max-width: 700px;
+    font-size: 2rem;
+    font-style: bolder;
+}
+
+.boas-praticas p{
+    max-width: 700px;
     font-size: 1.5rem;
-    font-weight: lighter;
-  }
+    font-style: normal;
+}
 
-  article{
+
+
+article{
     background-color: #ffffff;
     margin: 100px auto;
     width: 100%;
@@ -325,4 +354,35 @@ table.customTable {
     border-radius: 20px;
     padding: 20px;
     font-size: 2.5rem;
-  }
+}
+
+article h2{
+    text-align: center;
+    font-size:3rem;
+}
+
+
+.blank{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+    max-height: auto;
+
+    margin: 0 auto;
+    color: white;
+}
+
+.valores{
+    box-shadow: 0px 0px 6px rgba(50, 50, 50, 0.77);
+    border-radius: 20px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.valores button{
+    text-transform: uppercase;
+}
